@@ -62,7 +62,7 @@
       "description": "UPSTREAM Link Repo Utama",
       "value": "https://github.com/mrismanaziz/Man-Userbot",
       "required": true
-    },
+    }
   },
   "addons": [
     {
