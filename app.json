@@ -1,21 +1,23 @@
 {
   "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.8+",
+  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
-  "repository": "https://github.com/tofikdn/Deploy-Man",
+  "repository": "https://github.com/TheCatMan-lab/Man-Userbot",
+  "telegram": ["https://t.me/mrismanaziz", "https://t.me/tofik_dn"],
+  "success_url": "https://t.me/Lunatic0de",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di web my.telegram.org. Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di web my.telegram.org",
+      "description": "Dapatkan Api hash di web my.telegram.org.",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/SharingUserbot » Lalu ketik #string",
+      "description": "Dapatkan String Session di Grup » https://t.me/sharinguserbot » Lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -32,14 +34,9 @@
       "required": true
     },
     "PM_AUTO_BAN": {
-      "description": "PM Auto-Ban adalah module untuk bot welcome otomatis ketika ada orang ngePC kamu, jika Mau di aktifkan ubah ke True",
+      "description": "PM Auto-Ban adalah module untuk bot welcome otomatis ketika ada orang ngePC kamu,jika Mau di aktifkan ubah ke True",
       "value": "False",
       "required": false
-    },
-    "UPSTREAM_REPO_URL": {
-      "description": "UPSTREAM Link Repo Utama",
-      "value": "https://github.com/mrismanaziz/Man-Userbot",
-      "required": true
     },
     "ALIVE_NAME": {
       "description": "Masukan Nama untuk menunjukan pesan di perintah .alive / .afk / .ping dan lain lain",
@@ -62,7 +59,12 @@
       "description": "isi kota kamu tinggal untuk default module .weather / cuaca",
       "value": "Jakarta",
       "required": false
-    }
+    },
+    "UPSTREAM_REPO_URL": {
+      "description": "UPSTREAM Link Repo Utama",
+      "value": "https://github.com/mrismanaziz/Man-Userbot",
+      "required": true
+    },
   },
   "addons": [
     {
