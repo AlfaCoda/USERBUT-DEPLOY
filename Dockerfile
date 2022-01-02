@@ -1,11 +1,13 @@
-FROM mrismanaziz/man-userbot:buster
+FROM mrmiss/userbutt:latest
 
-RUN git clone -b Man-Userbot https://github.com/itgoodev/Man-Userbot /home/manuserbot/ \
-    && chmod 777 /home/manuserbot \
-    && mkdir /home/manuserbot/bin/
+#
+# Clone repo and prepare working directory
+#
+RUN git clone -b sql-extended https://github.com/AlfaCoda/UserButt /root/userbot
+RUN mkdir /root/userbot/bin/
+WORKDIR /root/userbot/
 
-COPY ./sample_config.env ./config.env* /home/manuserbot/
+# Make open port TCP
+EXPOSE 80 443
 
-WORKDIR /home/manuserbot/
-
-CMD ["python3", "-m", "userbot"]
+CMD ["python3","-m","userbot"]
