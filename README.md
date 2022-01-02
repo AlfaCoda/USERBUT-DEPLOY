@@ -1,11 +1,15 @@
-# Man-Userbot Telegram
+# Project Telegram UserButt
 
-Man-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
-
-Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
-Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
-
-## Disclaimer
+<p align="center">
+    <a href="https://github.com/mrmissx/UserButt/actions?query=workflow%3AFailCheck" > <img src="https://img.shields.io/github/workflow/status/mrmissx/userbutt/FailCheck/sql-extended?style=for-the-badge&logo=github-actions&logoColor=white" alt="Failcheck" /></a>
+    <a href="https://www.codacy.com/manual/mrmissx/UserButt?utm_source=github.com&utm_medium=referral&utm_content=mrmissx/UserButt&utm_campaign=Badge_Grade"><img src="https://img.shields.io/codacy/grade/c460544d68334a51b84c83ce8d3a1e98?style=for-the-badge&logo=codacy" alt="codacy badge" /></a>
+    <a href="https://github.com/mrmissx/UserButt/commits/sql-extended"><img src="https://img.shields.io/github/last-commit/mrmissx/userbutt/sql-extended?style=for-the-badge&logo=github" alt="commit" /></a></br>
+    <a href="https://github.com/mrmissx/UserButt/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/mrmissx/userbutt?style=for-the-badge&logo=github" alt="Contributors" /></a>
+    <a href="https://github.com/mrmissx/UserButt/network/members"><img src="https://img.shields.io/github/forks/mrmissx/Userbutt?label=Fork&style=for-the-badge&logo=github" alt="fork" /></a>
+    <a href="https://github.com/mrmissx/UserButt"><img src="https://img.shields.io/github/repo-size/mrmissx/userbutt?style=for-the-badge&logo=github" alt="size" /></a>
+    <a href="https://hub.docker.com/r/mrmiss/userbutt"> <img src="https://img.shields.io/docker/image-size/mrmiss/userbutt/latest?color=red&label=Docker%20Size&style=for-the-badge&logo=docker&logoColor=white" alt="docker" /></a></br>
+    <a href="https://t.me/userbotindo"> <img src="https://img.shields.io/badge/telegram-Support_Group-blue?style=social&logo=telegram" alt="support" /></a>
+</p>
 
 ```
 Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
@@ -13,13 +17,19 @@ Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu Anda
 mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
 Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 ```
+A modular Telegram userbot running on Python3 with sqlalchemy database.
 
-## Tutorial
+Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) userbot with a lot of changes, features and module.
 
-- [Panduan Cara Memasang Man-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
-- [Cara Setting Last.FM modules](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)
-- [List Variabel Man-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
+## Generate String Session
 
+Easy way to get STRING_SESSION.
+
+### Run on repl.it
+
+[![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://replit.com/@KeselekPermen/UserButt)
+
+### or Run on your terminal
 ### Generate String Session
 [![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://repl.it/@mrismanaziz/stringenSession?lite=1&outputonly=1)
 
@@ -31,18 +41,25 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 ## Updates dan support
 
-Follow Channel [@Lunatic0de](https://t.me/Lunatic0de) untuk info Update bot dan Gabung Group [@SharingUserbot](https://t.me/SharingUserbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Man-Userbot.
+For further guide you can head to [Groups and Support](https://github.com/mrmissx/UserButt#Groups-and-support) or read this [guide](https://telegra.ph/Host-a-Telegram-Userbot-05-07)
 
-## © Credits
-#### Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
-*   [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
-*   [RaphielGang](https://github.com/RaphielGang) : Paperplane
-*   [BianSepang](https://github.com/BianSepang/WeebProject) : WeebProject
-*   [Sandy1709](https://github.com/sandy1709/catuserbot) : CatUserbot
-*   [X_ImFine](https://github.com/ximfine) :  XBot-REMIX
-*   [Risman](https://github.com/mrismanaziz/Man-Userbot) :  Man-Userbot
-*   [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
-*   [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
+## Groups and Support
+
+Join [Userbot Indonesia Channel](https://t.me/userbotindocloud) for update notifications or announcement.
+
+Join [Userbotindo Support Group](https://t.me/userbotindo) for discussion, bug reporting, and help.
+
+## Credits
+
+* [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
+* [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
+* [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
+* [adekmaulana](https://github.com/adekmaulana) - ProjectBish
+* [MoveAngel](https://github.com/MoveAngel) - One4uBot
+* [GengKapak](https://github.com/GengKapak) - DCLXVI
+
+And [others](https://github.com/mrmissx/UserButt/graphs/contributors) that help to make this userbot awesome.
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/mrismanaziz/Man-Userbot/blob/Man-Userbot/LICENSE) - Version 1.d, February 2020
+
+Licensed under [Raphielscape Public License](https://github.com/mrmissx/UserButt/blob/sql-extended/LICENSE) - Version 1.d, February 2020
